@@ -52,6 +52,7 @@ li a {
 li a:hover{
     border-bottom: 2px solid var(--mainColor);
 }
+
 .header{
     background: url(images/pexels-nao-triponez-129207.jpg);
     background-repeat: no-repeat;
@@ -93,9 +94,9 @@ li a:hover{
     background: var(--mainColor);
     transform: translateY(60px);
 }
-
+/* Our Story Start */
 #our-story{
-    height: 100vh;
+   
     margin-top: 15%;
     display: flex;
     flex-wrap: wrap;
@@ -111,12 +112,15 @@ li a:hover{
     background-position: center ;
     background-size: cover;
 }
-
+.title-style{
+    display: flex;
+    align-items: center;
+}
 .title {
 font-family:var(--primaryFont) ;
 font-size: 4rem;
 color: #fff;
-transform: translateX(-100);
+transform: translateX(-100px);
 }
 .line{
     width: 100px;
@@ -124,10 +128,46 @@ transform: translateX(-100);
     background: #fff;
     transform: translateX(-120px);
 }
-.section-content{
+.section-content p {
     max-width: 500px;
     color: #fff;
     font-family: sans-serif;
-    line-height: 20px 0px;
+    line-height: 20px;
+    margin: 20px 0;
+
+}
+  /* Our Story Ends */
+  /*  Coffe Start*/
+
+  .coffee-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+ .content-section p {
+  max-width: 500px;
+  margin-top: 20px;
+  font-family: var(--primaryFont);
+  color: #fff;
+
+}
+  .img-2 {
+    width: 400px;
+    height: 400px;
+
+}
+.title-two{
+    font-size: 3rem;
+    color: #fff;
+    font-family: var(--primaryFont);
+}
+/* Coffee END */
+
+/* Products */
+.products {
+margin-top: 5rem;
 
 }
