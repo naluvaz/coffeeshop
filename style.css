@@ -171,3 +171,170 @@ transform: translateX(-100px);
 margin-top: 5rem;
 
 }
+.title-three {
+    font-size: 3rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+   text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    border: 2px solid var(--mainColor);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:-60px;
+    
+}
+.img-one {
+    background: url(images/1.png);
+    background-position: center ;
+    background-size: cover;
+     
+}
+.img-two {
+    background: url(images/2.png);
+    background-position: center ;
+    background-size: cover;
+     
+}.img-three {
+    background: url(images/3.png);
+    background-position: center ;
+    background-size: cover;
+     
+}
+
+.card-title{
+
+    color:#fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.card .items p {
+    color:#fff;
+    margin: 20px 0;
+    font-family: sans-serif;
+
+}
+
+/* Product End */
+
+footer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+footer .container {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+
+
+}
+footer .heading-info{
+    margin-bottom: 20px;
+}
+footer p {
+    line-height: 25px;
+
+}
+span {
+    color: var(--mainColor);
+}
+hr {
+margin-bottom: 20px;
+border: var(--mainColor);
+width: 500px;
+margin: 0 auto;
+
+}
+.para {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*PROJECT END*/
+/* media responsible*/
+@media only screen and (max-width:768px ){
+    .main-heading, 
+    .primary-heading {
+      font-size: 2rem;
+    }
+    #our-story {
+        text-align: center;
+        
+    }
+   
+    
+    #our-story .title {
+    transform: translateX(10px);
+    font-size: 2rem;
+
+    
+
+    }
+    #our-story .line {
+        display: none;
+        
+    }
+    .content-section{
+        text-align: center;
+    }
+   #our-story .img-container .img p {
+    width: 70%;
+    text-align: center ;
+    margin: 0 auto;
+
+   }
+   .coffee-container .img-container {
+    margin-top: 4rem;
+    width: 50%;
+   }
+    .img-container{
+        margin-bottom: 100px;
+    }
+   .title {
+    margin: 0 auto;
+   }
+   .title-two {
+    margin: 0 auto;
+   }
+   .title-three {
+    display: none;
+   }
+   .para{
+     display: none;
+   }
+   footer .heading-info {
+    font-size: medium;
+   
+    justify-content: center;
+   }
+
+}
